@@ -2,6 +2,7 @@ import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
 // can be a parent, or is a super class
+// it is REQUERED TO USE val in the (val name: String, val category: String)
 open class SmartDevice(val name: String, val category: String) {
 
     var deviceStatus = "online"
